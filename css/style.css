@@ -176,6 +176,30 @@ header .banner {
     background: url("eshop.png") no-repeat 70%;
     background-size: cover;
 }
+#work-8 {
+    background: url("allergen.jpg") no-repeat 70%;
+    background-size: cover;
+}
+#work-9 {
+    background: url("skin.png") no-repeat 70%;
+    background-size: cover;
+}
+#work-10 {
+    background: url("kafe2.jpg") no-repeat 70%;
+    background-size: cover;
+}
+#work-11 {
+    background: url("nioxin.png") no-repeat 70%;
+    background-size: cover;
+}
+#work-12 {
+    background: url("energeia.png") no-repeat 70%;
+    background-size: cover;
+}
+#work-13 {
+    background: url("elin.png") no-repeat 70%;
+    background-size: cover;
+}
 .block::after, .block::before {
     content: '';
     background: rgba(0,0,0,0.6);
@@ -233,9 +257,22 @@ header .banner {
     background: url("https://www.walldevil.com/wallpapers/a52/wallpaper-design-abstract-board-circuit-designs.jpg");
     text-align: center;
 }
+.row.skillrow {
+    padding-bottom: 9%;
+}
 .skills h2 {
     margin: 7%;
     color: #fff;
+}
+[class*=" devicon-"], [class^=devicon-] {
+    cursor:pointer;
+    font-size: calc(3.5vw + 10em);
+
+}
+[class*=" devicon-"]:hover, [class^=devicon-]:hover {
+  
+  
+
 }
 .skills .skills-thumb {
    margin-bottom: 5%;
@@ -245,7 +282,7 @@ header .banner {
 
 /*social list main*/
 .social-footer {
-    background: #fff;
+    /*background: #fff;*/
 }
 .social-footer h2 {
     margin: 5% 0 3%;
@@ -258,7 +295,7 @@ header .banner {
 .social-footer .social-list li a{
     display: block;
     position: relative;
-    border: 2px solid #444;
+    border: 2px solid #fff;
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
     width: 60px;
@@ -271,7 +308,7 @@ header .banner {
 }
 .social-footer .social-list li a i {
     margin-top: 5px;
-    color: #444
+      color: #fff;
 }
 .social-footer .social-list li:hover i {
     color: #ffb424;

@@ -15,7 +15,7 @@ $(function(){
   })(jQuery);
 
   // input text for typing animation 
-  $("#holder").writeText("Full Stack WeB Developer");
+  $("#holder").writeText("Full Stack Web Developer");
     //WOW plugin init
     new WOW().init();
 
@@ -35,7 +35,7 @@ $(function(){
     
 
       //ajax form
-  $(function() {
+ /* $(function() {
 
     // Get the form.
     var form = $('#ajax-contact');
@@ -85,5 +85,5 @@ $(function(){
 
     });
 
-  });
+  });*/
 });
