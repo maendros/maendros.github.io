@@ -202,6 +202,11 @@ header .banner {
   background: url("babyliss.png") no-repeat 70%;
   background-size: cover;
 }
+
+#work-20 {
+  background: url("myReads.png") no-repeat 70%;
+  background-size: cover;
+}
 .block::after,
 .block::before {
   content: "";
